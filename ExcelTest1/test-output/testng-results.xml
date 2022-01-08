@@ -1,57 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-07T18:59:04Z" name="Default suite" finished-at="2022-01-07T18:59:17Z" duration-ms="13206">
+  <suite started-at="2022-01-08T02:41:46Z" name="Default suite" finished-at="2022-01-08T02:42:02Z" duration-ms="15841">
     <groups>
     </groups>
-    <test started-at="2022-01-07T18:59:04Z" name="Default test" finished-at="2022-01-07T18:59:17Z" duration-ms="13206">
+    <test started-at="2022-01-08T02:41:46Z" name="Default test" finished-at="2022-01-08T02:42:02Z" duration-ms="15841">
       <class name="pack1.WebTableTest">
-        <test-method signature="webTableToMap()[pri:0, instance:pack1.WebTableTest@258d79be]" started-at="2022-01-07T18:59:04Z" name="webTableToMap" finished-at="2022-01-07T18:59:17Z" duration-ms="12513" status="FAIL">
-          <exception class="java.lang.IndexOutOfBoundsException">
-            <message>
-              <![CDATA[Index 1 out of bounds for length 1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
-at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
-at java.base/java.util.Objects.checkIndex(Objects.java:372)
-at java.base/java.util.ArrayList.get(ArrayList.java:459)
-at pack1.WebTableTest.webTableToMap(WebTableTest.java:91)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+        <test-method signature="webTableToMap()[pri:0, instance:pack1.WebTableTest@4f6f416f]" started-at="2022-01-08T02:41:46Z" name="webTableToMap" finished-at="2022-01-08T02:42:01Z" duration-ms="15105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webTableToMap -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:pack1.WebTableTest@258d79be]" started-at="2022-01-07T18:59:17Z" name="afterTest" finished-at="2022-01-07T18:59:17Z" duration-ms="659" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pack1.WebTableTest@4f6f416f]" started-at="2022-01-08T02:42:01Z" name="afterTest" finished-at="2022-01-08T02:42:02Z" duration-ms="713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

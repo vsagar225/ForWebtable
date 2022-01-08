@@ -43,8 +43,7 @@ public class WebTableTest {
       WebElement groupM=driver.findElement(By.xpath("//a[normalize-space()='Group M']"));
       
       groupM.click();
-      
-      
+        
       List<WebElement>  columns2 =  driver.findElements(By.xpath("//div[@id='leftcontainer']//table//thead//tr//th"));
       int columnCount2 = columns2.size();
       System.out.println("No of columns in a table : " + columnCount2);
@@ -71,7 +70,6 @@ public class WebTableTest {
       List<LinkedHashMap<String, String>> allTableData = new ArrayList<LinkedHashMap<String, String>>();
       
       System.out.println("After declaring the HashMap");
-      
       
       for (int i=2;i<rowCount2;i++)
       {

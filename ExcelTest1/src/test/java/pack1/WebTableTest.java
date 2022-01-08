@@ -58,13 +58,15 @@ public class WebTableTest {
       System.out.println("No of rows in a table : " + rowCount2);
       
   	// Let's get header first
-		String headerLoc = "//div[@id='leftcontainer']//table//thead";
+		String headerLoc = "//div[@id='leftcontainer']//table//thead//tr//th";
 		List<WebElement> allHeadersEle = driver.findElements(By.xpath(headerLoc));
 		List<String> allHeaderNames = new ArrayList<String>();
 		for (WebElement header : allHeadersEle) {
 			String headerName = header.getText();
 			allHeaderNames.add(headerName);
 		}
+		
+		System.out.println("All header names : " +allHeaderNames.size());
       
       List<LinkedHashMap<String, String>> allTableData = new ArrayList<LinkedHashMap<String, String>>();
       
@@ -81,7 +83,6 @@ public class WebTableTest {
 
     	  LinkedHashMap<String, String> eachRowData = new LinkedHashMap<>();
 
-    	  System.out.println(eachRowData);
     	  // Iterating each cell
     	  for (int j = 1; j < columnCount2; j++) {
     		  // Getting cell value
